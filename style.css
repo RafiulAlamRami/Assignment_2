@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html{
+    font-size: 10px;
+ }
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Banner section style start */
+
+.banner-container{
+    max-width: 117rem;
+    height: 50rem;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.6rem;
+    margin: 0 auto;
+}
+
+.banner-title h4{
+    color: #fff;
+    font-size: 6.4rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 10.6rem 0 2.4rem 0;
+}
+
+.banner-description p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 2.6rem;
+    margin-bottom: 4.8rem;
+    
+}
+
+.banner-find{
+    max-width: 80rem;
+    border-radius: .8rem;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+}
+
+.banner-find .find-place option[value=""][disabled]{
+    display: none;
+}
+
+input[type="text"] , .fill{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding:1rem;
+    width: 17.4rem;
+    height: 5.2rem;
+    border: 1px solid #FFF;
+    border-radius: .8rem;
+    background: #FFF;
+    margin: 2.4rem;
+    outline: 0;
+}
+
+.banner-find{
+    display: flex;
+    flex-direction: row;
+}
+
+input::placeholder {
+    color: red;
+  }
+
+
+
+/* Banner section style end */
